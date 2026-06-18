@@ -244,7 +244,7 @@ def make_love_days_text(love_start: str) -> str:
     days = love_days(love_start)
     if days <= 0:
         return "和你的故事，从今天开始 ❤️"
-    return f"今天是我俩认识的第 {days} 天 ❤️"
+    return f"今天是我和你认识的第 {days} 天，我随时都在哦~ ❤️"
 
 
 def make_birthday_text(birthday_md: str) -> str:
@@ -256,7 +256,7 @@ def make_birthday_text(birthday_md: str) -> str:
         return "宝贝的每一天都是我心里的节日 🎂"
     if days == 0:
         return "今天是你的生日！祝宝贝生日快乐！🎂🎉"
-    return f"距离宝贝生日还有 {days} 天 🎂"
+    return f"距离大王生日还有 {days} 天 🎂"
 
 
 # ----------------------------------------------------------------------
